@@ -3,12 +3,13 @@ def hello_t(array)
   while i < array.length 
   yield array[i]
   i = i + 1
-
 end
+  
   array
-
+else 
+  puts "Hey! No block was given!"
 end
-
+end
 # call your method here!
 
 
